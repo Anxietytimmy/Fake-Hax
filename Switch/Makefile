@@ -42,6 +42,9 @@ BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
+
+APP_TITLE	:= Fake-Hax
+APP_VERSION := 0.1
 #ROMFS	:=	romfs
 
 #---------------------------------------------------------------------------------
