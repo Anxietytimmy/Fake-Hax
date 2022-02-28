@@ -18,7 +18,13 @@ int main(int argc, char* argv[])
     PadState pad;
     padInitializeDefault(&pad);
     // print A int text
-    printf("Press A to start looping\n");            
+    printf("`7MMXXYMM   db      7MMF   YMM  7MMXXXYMM     7MMF    7MMF      db      YMM     MP  \n");
+    printf("  MM    `7 ;MM:      MM   .M'    MM    `7      MM      MM      ;MM:      VMb.  ,P   \n"); 
+    printf("  MM   d  ,V^MM.     MM .d       MM   d        MM      MM     ,V^MM.      `MM.M'    \n"); 
+    printf("  MM""MM ,M  `MM     MMMMM.      MMmmMM        MMmmmmmmMM    ,M  `MM        MMb     \n");
+    printf("  MM   Y AbmmmqMA    MM  VMA     MM   Y  mmmmm MM      MM    AbmmmqMA     ,M'`Mb.   \n");
+    printf("  MM    A'     VML   MM   `MM.   MM     ,M     MM      MM   A'     VML   ,P   `MM.  \n");
+    printf(".JMML..AMA.   .AMMA.JMML.   MMb.JMMmmmmMMM   .JMML.  .JMML.AMA.   .AMMA.MM:.  .:MMa.\n");
     
     // Main loop
     while (appletMainLoop())
