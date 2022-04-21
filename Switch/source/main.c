@@ -17,6 +17,8 @@ int main(int argc, char* argv[])
     // Initialize the default gamepad (which reads handheld mode inputs as well as the first connected controller)
     PadState pad;
     padInitializeDefault(&pad);
+    // Print out ASCI art                       
+    // I have no clue why it spits out garbage ¯\_(ツ)_/¯
     printf("  ______    _               _    _                   _   ___   __\n");
     printf(" |  ____|  | |             | |  | |                 | \ | \ \ / /\n"); 
     printf(" | |__ __ _| | _____ ______| |__| | __ ___  ________|  \| |\ V / \n"); 
