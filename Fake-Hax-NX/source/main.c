@@ -17,11 +17,14 @@ int main(int argc, char* argv[])
     // Initialize the default gamepad (which reads handheld mode inputs as well as the first connected controller)
     PadState pad;
     padInitializeDefault(&pad);
-    printf("  ___     _           _  _              _  ___  __\n");
-    printf(" | __|_ _| |_____ ___| || |__ ___ _____| \| \ \/ /\n"); 
-    printf(" | _/ _` | / / -_)___| __ / _` \ \ /___| .` |>  < \n"); 
-    printf(" |_|\__,_|_\_\___|   |_||_\__,_/_\_\   |_|\_/_/\_\\n");
-    printf("                                                  \n");
+    // Print out ASCI art                       
+    // I have no clue why it spits out garbage ¯\_(ツ)_/¯
+    printf("  ______    _              _    _                  _   ___   __\n");
+    printf(" |  ____|  | |            | |  | |                | \ | \ \ / /\n"); 
+    printf(" | |__ __ _| | _____ _____| |__| | __ ___  _______|  \| |\ V / \n"); 
+    printf(" |  __/ _` | |/ / _ \_____|  __  |/ _` \ \/ /_____| . ` | > <  \n");
+    printf(" | | | (_| |   <  __/     | |  | | (_| |>  <      | |\  |/ . \ \n");
+    printf(" |_|  \__,_|_|\_\___|     |_|  |_|\__,_/_/\_      |_| \_/_/ \_\\n");
     // Main loop
     while (appletMainLoop())
     {
