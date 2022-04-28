@@ -19,12 +19,16 @@ int main(int argc, char* argv[])
     padInitializeDefault(&pad);
     // Print out ASCI art                       
     // I have no clue why it spits out garbage ¯\_(ツ)_/¯
-    printf("  ______    _             _    _                 _   ___   __\n");
-    printf(" |  ____|  | |           | |  | |               | \ | \ \ / /\n"); 
-    printf(" | |__ __ _| | _____ ____| |__| | __ ___  ______|  \| |\ V / \n"); 
-    printf(" |  __/ _` | |/ / _ \____|  __  |/ _` \ \/ /____| . ` | > <  \n");
-    printf(" | | | (_| |   <  __/    | |  | | (_| |>  <     | |\  |/ . \ \n");
-    printf(" |_|  \__,_|_|\_\___|    |_|  |_|\__,_/_/\_\    |_| \_/_/ \_\\n");
+    // It prints but the letters get out of order very quickly
+    // Might have something to do with the slanted letters but other than that I dunno 
+    // Gonna comment this out for now, just going to use regular text
+    // printf("    _________    __ __ ______     __  _____   _  __      _   ___  __\n");
+    // printf("   / ____/   |  / //_// ____/    / / / /   | | |/ /     / | / / |/ /\n"); 
+    // printf("  / /_  / /| | / ,<  / __/______/ /_/ / /| | |   /_____/  |/ /|   / \n"); 
+    // printf(" / __/ / ___ |/ /| |/ /__/_____/ __  / ___ |/   /_____/ /|  //   |  \n");
+    // printf("/_/   /_/  |_/_/ |_/_____/    /_/ /_/_/  |_/_/|_|    /_/ |_//_/|_|  \n");
+    printf("Fake-Hax-NX")
+    printf("Press A to continue")
     // Main loop
     while (appletMainLoop())
     {
