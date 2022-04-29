@@ -17,6 +17,9 @@ int main(int argc, char* argv[])
     // Initialize the default gamepad (which reads handheld mode inputs as well as the first connected controller)
     PadState pad;
     padInitializeDefault(&pad);
+    // Scan the gamepad every frame
+    padUpdate(&pad);
+    u64 kDown = padGetButtonsDown(&pad);
     // Print out ASCI art                       
     // I have no clue why it spits out garbage ¯\_(ツ)_/¯
     // It prints but the letters get out of order very quickly
