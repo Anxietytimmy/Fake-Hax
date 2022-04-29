@@ -27,11 +27,11 @@ int main(int argc, char* argv[])
     // printf("  / /_  / /| | / ,<  / __/______/ /_/ / /| | |   /_____/  |/ /|   / \n"); 
     // printf(" / __/ / ___ |/ /| |/ /__/_____/ __  / ___ |/   /_____/ /|  //   |  \n");
     // printf("/_/   /_/  |_/_/ |_/_____/    /_/ /_/_/  |_/_/|_|    /_/ |_//_/|_|  \n");
-    printf("Fake-Hax-NX\n")
-    printf("Press A to continue\n")
-    printf("As of now, this app is very POC, so if you want to try it out now, its probably just gonna print out random things with button presses.\n")
+    printf("Fake-Hax-NX\n");
+    printf("Press A to continue\n");
+    printf("As of now, this app is very POC, so if you want to try it out now, its probably just gonna print out random things with button presses.\n");
     if (kDown & HidNpadButton_A);
-        printf("Uploading payload, please wait")
+        printf("Uploading payload, please wait");
     // Main loop
     while (appletMainLoop())
     {
