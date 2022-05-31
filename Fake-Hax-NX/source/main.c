@@ -36,6 +36,7 @@ int main(int argc, char* argv[])
     printf("This app is a joke, its not doing anything to your switch other than writing text to the screen (and memory I guess)\n")
     if (kDown & HidNpadButton_A);
         printf("Uploading payload, please wait");
+        
     // Main loop
     while (appletMainLoop())
     {
