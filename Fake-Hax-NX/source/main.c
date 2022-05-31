@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h> 
 #include <unistd.h>
+#include <conio.h>
 
 // Main program entrypoint
 int main(int argc, char* argv[])
@@ -34,9 +35,15 @@ int main(int argc, char* argv[])
     printf("Press A to continue\n");
     printf("As of now, this app is very POC, so if you want to try it out now, its probably just gonna print out random things with button presses.\n");
     printf("This app is a joke, its not doing anything to your switch other than writing text to the screen (and memory I guess)\n")
-    if (kDown & HidNpadButton_A);
+    if (kDown & HidNpadButton_A)    {
+        clrscr();
+        int a, b;
+        a = 500000
+        b = 0;
         printf("Uploading payload, please wait");
-        
+        printf("Bytes uploaded: ")        
+    }
+
     // Main loop
     while (appletMainLoop())
     {
